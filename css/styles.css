@@ -1,32 +1,51 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--text);
+}
+:root {
+  --dark: #2e2f42;
+  --text: #434455;
+  --primary-brand: #4d5ae5;
+  --light: #f4f4fd;
+  --white: #fff;
+  --link-active: #404bbf;
+}
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  color: var(--dark);
+  line-height: 1.3125;
+  letter-spacing: 0.03375;
+  text-transform: uppercase;
+}
+.web-logo {
+  color: var(--primary-brand);
+}
+
+.no-link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.contact-links {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--text);
+}
+.menu-nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-}
-.web-logo {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  color: #4d5ae5;
-}
-.studio-logo {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  color: #2e2f42;
+  color: var(--text);
 }
 
-.contact-links {
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-}
 .hero {
   width: 1440px;
   height: 600px;
