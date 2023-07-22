@@ -6,3 +6,17 @@ body {
   font-weight: 500;
   line-height: 1.5;
 }
+.web-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  color: #4d5ae5;
+}
+.studio-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  color: #2e2f42;
+}
