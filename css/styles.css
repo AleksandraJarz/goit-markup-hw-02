@@ -132,3 +132,38 @@ footer {
 .our-team {
   background: var(--light);
 }
+.employee-name {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+.job-position {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text);
+}
+
+.projects-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+.projects-type {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text);
+}
