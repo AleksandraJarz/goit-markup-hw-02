@@ -39,12 +39,20 @@ body {
   font-weight: 400;
   color: var(--text);
 }
+.contact-links:hover,
+.contact-links:focus {
+  color: var(--link-active);
+}
 .menu-nav {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   color: var(--text);
+}
+.menu-nav:hover,
+.menu-nav:focus {
+  color: var(--link-active);
 }
 
 .hero {
